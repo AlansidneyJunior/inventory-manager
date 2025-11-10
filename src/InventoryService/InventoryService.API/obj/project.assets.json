@@ -1070,6 +1070,26 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "InventoryService.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/InventoryService.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryService.Application.dll": {}
+        }
+      },
+      "InventoryService.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/InventoryService.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryService.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -3158,10 +3178,22 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "InventoryService.Application/1.0.0": {
+      "type": "project",
+      "path": "../InventoryService.Application/InventoryService.Application.csproj",
+      "msbuildProject": "../InventoryService.Application/InventoryService.Application.csproj"
+    },
+    "InventoryService.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../InventoryService.Infrastructure/InventoryService.Infrastructure.csproj",
+      "msbuildProject": "../InventoryService.Infrastructure/InventoryService.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "InventoryService.Application >= 1.0.0",
+      "InventoryService.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.10",
       "Microsoft.EntityFrameworkCore >= 9.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.10",
@@ -3195,7 +3227,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.Application/InventoryService.Application.csproj": {
+              "projectPath": "/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.Application/InventoryService.Application.csproj"
+            },
+            "/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.Infrastructure/InventoryService.Infrastructure.csproj": {
+              "projectPath": "/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.Infrastructure/InventoryService.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
