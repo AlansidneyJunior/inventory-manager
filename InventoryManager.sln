@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9D0DAE52-1CEA-4145-A4D9-11ECCD0368B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InventoryService", "InventoryService", "{45CC059E-9D8E-40CA-A973-1D66781A497E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.API", "src\InventoryService\InventoryService.API\InventoryService.API.csproj", "{900002A0-FD95-475B-8615-6AA975662C12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SalesService", "SalesService", "{2B00A816-EC23-44C7-ACAD-E81F5F24A61E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesService.API", "src\SalesService\SalesService.API\SalesService.API.csproj", "{AAF768CF-5A7F-4C04-B8C7-8D39B89647CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{900002A0-FD95-475B-8615-6AA975662C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900002A0-FD95-475B-8615-6AA975662C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900002A0-FD95-475B-8615-6AA975662C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900002A0-FD95-475B-8615-6AA975662C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF768CF-5A7F-4C04-B8C7-8D39B89647CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF768CF-5A7F-4C04-B8C7-8D39B89647CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF768CF-5A7F-4C04-B8C7-8D39B89647CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF768CF-5A7F-4C04-B8C7-8D39B89647CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45CC059E-9D8E-40CA-A973-1D66781A497E} = {9D0DAE52-1CEA-4145-A4D9-11ECCD0368B0}
+		{900002A0-FD95-475B-8615-6AA975662C12} = {45CC059E-9D8E-40CA-A973-1D66781A497E}
+		{2B00A816-EC23-44C7-ACAD-E81F5F24A61E} = {9D0DAE52-1CEA-4145-A4D9-11ECCD0368B0}
+		{AAF768CF-5A7F-4C04-B8C7-8D39B89647CD} = {2B00A816-EC23-44C7-ACAD-E81F5F24A61E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres_inventory
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: inventory_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - inventory-net
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq_inventory
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - inventory-net
+
+volumes:
+  pgdata:
+
+networks:
+  inventory-net:
