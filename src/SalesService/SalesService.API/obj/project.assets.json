@@ -33,6 +33,42 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "SalesService.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SalesService.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SalesService.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SalesService.Application.dll": {}
+        }
+      },
+      "SalesService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/SalesService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SalesService.Domain.dll": {}
+        }
+      },
+      "SalesService.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SalesService.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SalesService.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SalesService.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -67,11 +103,28 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "SalesService.Application/1.0.0": {
+      "type": "project",
+      "path": "../SalesService.Application/SalesService.Application.csproj",
+      "msbuildProject": "../SalesService.Application/SalesService.Application.csproj"
+    },
+    "SalesService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SalesService.Domain/SalesService.Domain.csproj",
+      "msbuildProject": "../SalesService.Domain/SalesService.Domain.csproj"
+    },
+    "SalesService.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SalesService.Infrastructure/SalesService.Infrastructure.csproj",
+      "msbuildProject": "../SalesService.Infrastructure/SalesService.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.10"
+      "Microsoft.AspNetCore.OpenApi >= 9.0.10",
+      "SalesService.Application >= 1.0.0",
+      "SalesService.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -99,7 +152,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/alansidney/Documents/dev/dio/inventory-manager/src/SalesService/SalesService.Application/SalesService.Application.csproj": {
+              "projectPath": "/home/alansidney/Documents/dev/dio/inventory-manager/src/SalesService/SalesService.Application/SalesService.Application.csproj"
+            },
+            "/home/alansidney/Documents/dev/dio/inventory-manager/src/SalesService/SalesService.Infrastructure/SalesService.Infrastructure.csproj": {
+              "projectPath": "/home/alansidney/Documents/dev/dio/inventory-manager/src/SalesService/SalesService.Infrastructure/SalesService.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
