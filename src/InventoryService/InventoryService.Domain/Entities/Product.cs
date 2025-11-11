@@ -1,4 +1,4 @@
-namespace InventoryService.API.Models
+namespace InventoryService.Domain.Entities
 {
     public class Product
     {

@@ -40,6 +40,9 @@
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/Mono.TextTemplating.dll
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/Npgsql.dll
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/System.CodeDom.dll
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/System.Composition.AttributedModel.dll
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/System.Composition.Convention.dll
@@ -111,6 +114,12 @@
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/InventoryService.Application.dll
+/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/InventoryService.Domain.dll
+/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/InventoryService.Infrastructure.dll
+/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/InventoryService.Application.pdb
+/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/InventoryService.Infrastructure.pdb
+/home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/bin/Debug/net9.0/InventoryService.Domain.pdb
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/obj/Debug/net9.0/InventoryService.API.csproj.AssemblyReference.cache
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/obj/Debug/net9.0/InventoryService.API.GeneratedMSBuildEditorConfig.editorconfig
 /home/alansidney/Documents/dev/dio/inventory-manager/src/InventoryService/InventoryService.API/obj/Debug/net9.0/InventoryService.API.AssemblyInfoInputs.cache
